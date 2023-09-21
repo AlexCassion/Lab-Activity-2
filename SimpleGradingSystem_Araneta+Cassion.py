@@ -1,0 +1,18 @@
+Name = input("Fullname : ")
+Id = eval(input("Id number : "))
+Course = input("Course : ")
+Section = input("Section : ")
+Sub1 = eval(input("Enter your grade : "))
+Sub2 = eval(input("Enter your grade : "))
+Sub3 = eval(input("Enter your grade : "))
+Sub4 = eval(input("Enter your grade : "))
+SubAll = (Sub1+Sub2+Sub3+Sub4)
+print(SubAll)
+Average = SubAll/4
+print("")
+print("Full Name : ", Name)
+print("Id Number : ", Id)
+print("Course : ", Course)
+print("Section : ", Section)
+print("Your Average Grade is : ", Average)
+
